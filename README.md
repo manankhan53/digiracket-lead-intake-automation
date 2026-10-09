@@ -46,7 +46,27 @@ flowchart LR
 
 ## Screenshots
 
-The screenshot gallery is being completed before this repository is published. See [`Screenshots/README.md`](Screenshots/README.md) for the exact captures needed. The final gallery will show the blank website form, Make workflow, a redacted test record in Airtable, and a redacted test email alert.
+These captures show the website form and the connected workflow. Personal inquiry details and the partial Make webhook address have been covered. The Make scenario and Airtable base still display their original names from before the DigiRacket rebrand.
+
+### Website inquiry form
+
+![DigiRacket project inquiry form](Screenshots/01-website-contact-form.png)
+
+### Make workflow
+
+![Make scenario connecting a webhook to Airtable and Gmail](Screenshots/02-make-workflow.png)
+
+### Airtable inquiry table
+
+The real inquiry row is fully covered; the visible test rows are explicitly marked as test data.
+
+![Airtable table with test records and private lead row redacted](Screenshots/03-airtable-test-record.png)
+
+### Email alert
+
+The lead and account details are covered. This screenshot demonstrates the notification email format and delivery in Gmail.
+
+![Gmail website inquiry alert with identifying details redacted](Screenshots/04-email-alert-test.png)
 
 ## Repository contents
 
@@ -60,7 +80,11 @@ digiracket-lead-intake-automation/
 ├── examples/
 │   └── sample-lead.json            # Fictional sample payload
 ├── Screenshots/
-│   └── README.md                   # Gallery capture checklist
+│   ├── 01-website-contact-form.png # Blank live form
+│   ├── 02-make-workflow.png        # Make → Airtable → Gmail scenario
+│   ├── 03-airtable-test-record.png # Test data; real lead row redacted
+│   ├── 04-email-alert-test.png     # Alert with identifying details redacted
+│   └── README.md                   # Capture and privacy notes
 ├── .env.example                    # Variable names only
 ├── .gitignore
 └── README.md
