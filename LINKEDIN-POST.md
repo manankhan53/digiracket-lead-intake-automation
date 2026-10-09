@@ -6,7 +6,7 @@ The flow is:
 
 Website form → Vercel function → Make → Airtable + email alert
 
-I’ve documented the architecture and a sanitized reference implementation in a separate GitHub project. The live webhook credentials, account details, and personal lead data stay private.
+I’ve documented the architecture and a sanitized reference implementation in a dedicated GitHub repository: [add the repository link after you publish it]. The live webhook credentials, account details, and personal lead data stay private.
 
 This is workflow automation—not an AI chatbot or voice receptionist. I’m keeping those as separate projects with their own requirements and safeguards.
 
