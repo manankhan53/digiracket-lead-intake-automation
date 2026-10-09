@@ -1,0 +1,18 @@
+{
+  "name": "Sample Contact",
+  "email": "sample@example.com",
+  "business": "Example Business",
+  "service": "SEO",
+  "goal": "Understand the steps involved in improving local search visibility.",
+  "consent": true,
+  "source": "website",
+  "page": "contact",
+  "pageUrl": "https://example.com/contact",
+  "referrer": "",
+  "utm_source": "",
+  "utm_medium": "",
+  "utm_campaign": "",
+  "utm_content": "",
+  "utm_term": "",
+  "submittedAt": "2026-10-09T00:00:00.000Z"
+}
